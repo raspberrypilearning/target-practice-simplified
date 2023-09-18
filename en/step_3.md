@@ -9,7 +9,6 @@
 --- code ---
 ---
 language: python
-filename: main.py — draw()
 line_numbers: true
 line_number_start: 14
 line_highlights: 18-19
@@ -23,9 +22,16 @@ def draw():
 
 --- /code ---
 
-**Tip:** 💡 We have added comments to our code, like `# Set the fill colour for the sky to cyan`, to tell you what it does. You don't need to add comments to your code, but they are helpful to remind you what lines of code do.
-
 --- /task ---
+
+--- collapse ---
+
+---
+title: Using comments
+---
+**Tip:** 💡 Comments are useful beacuse they remind you what lines of code do. We have added comments to our code, like `# Set the fill colour for the sky to cyan`, to tell you what it does. 
+
+--- /collapse ---
 
 --- task ---
 

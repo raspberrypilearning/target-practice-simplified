@@ -27,7 +27,6 @@ Add code to randomly draw a brown circle within a target area:
 --- code ---
 ---
 language: python
-filename: main.py — shoot_arrow()
 line_numbers: true
 line_number_start: 7
 line_highlights: 8-12
@@ -50,7 +49,6 @@ Go to the `draw` function and call your new `shoot_arrow` function.
 --- code ---
 ---
 language: python
-filename: main.py — draw()
 line_numbers: true
 line_number_start: 31
 line_highlights: 33

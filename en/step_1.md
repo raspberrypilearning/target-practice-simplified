@@ -35,7 +35,7 @@ Click the **Run** button below to start the game. When the dot appears on the ta
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The oldest evidence of <span style="color: #0faeb0; font-weight: bold;"> archery </span> comes from South Africa. Stone and bone arrowheads aged around 70,000 years old have been found. 
+The oldest evidence of <span style="color: #0faeb0; font-weight: bold;"> archery </span> comes from South Africa. Stone and bone arrowheads remains aged around 70,000 years old have been found. 
 </p>
 
 ![](http://code.org/api/hour/begin_coderdojo_target.png)

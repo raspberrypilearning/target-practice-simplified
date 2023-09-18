@@ -24,7 +24,6 @@ Draw a triangle using the x and y coordinates for each of the corners.
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
 line_number_start: 18
 line_highlights: 20, 21
@@ -61,7 +60,6 @@ Draw a circle with x and y coordinates for its centre and a width.
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
 line_number_start: 20
 line_highlights: 22, 23
@@ -95,7 +93,6 @@ The target is made of different-sized circles with the same centre coordinates (
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
 line_number_start: 20
 line_highlights: 24, 25
@@ -136,7 +133,6 @@ title: Example code using different colours
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: false
 line_number_start: 14
 line_highlights: 

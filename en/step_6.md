@@ -16,7 +16,6 @@ In order to compare the colours, we need to use the hexadecimal code this can be
 --- code ---
 ---
 language: python
-filename: main.py — shoot_arrow() 
 line_numbers: true
 line_number_start: 7
 line_highlights: 8, 11
@@ -49,7 +48,6 @@ Add code to print the target emoji 🎯 when the mouse is clicked.
 --- code ---
 ---
 language: python
-filename: main.py - mouse_pressed()
 line_numbers: true
 line_number_start: 5
 line_highlights: 6

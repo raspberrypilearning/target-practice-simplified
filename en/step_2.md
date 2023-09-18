@@ -39,7 +39,6 @@ Turn the stroke off for all shapes. Add `no_stroke()` to the `setup` function:
 --- code ---
 ---
 language: python
-filename: main.py — setup()
 line_numbers: true
 line_number_start: 9
 line_highlights: 12
