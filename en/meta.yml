@@ -11,13 +11,16 @@ last_tested: "2021-10-06"
 steps:
   - title: You will make
   - title: Create a background
+  - title: Draw the grass
   - title: Draw your target
     completion:
       - engaged
   - title: Fire your arrow
+  - title: Get the colour hit by the arrow
   - title: Score points
     completion:
       - internal
+  - title: Add more conditions
   - title: Quick quiz
     knowledge_quiz:
       path: quiz1

@@ -1,43 +1,38 @@
-## Fire your arrow
+## Draw your target
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-When you click or tap, an arrow will fire at the position of a moving target circle. 
+Your game needs a target to shoot arrows at.
 </div>
 <div>
 
-![The target, with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif){:width="300px"}
+![The output area with the target and stand.](images/three-circles.png){:width="300px"}
 
 </div>
 </div>
 
-### Draw a target circle every frame
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> Computers create the effect of movement by showing lots of images one after another. Each image is called a <span style="color: #0faeb0; font-weight: bold;"> frame </span>.   
-</p>
+### Draw a triangular stand
 
 --- task ---
 
-Define your `shoot_arrow()` function under the comment **# The shoot_arrow function goes here**. 
+Set the fill colour to `sienna` (brown). 
 
-Add code to randomly draw a brown circle within a target area:
+Draw a triangle using the x and y coordinates for each of the corners.
 
-![A rectangle showing the target area coordinates in a semi transparent rectangle. The target area is between x=100 and y=100 to x=300 and y=300 so covers the whole target and wider.](images/target_area.png)
+![A brown triangle on grass and against a sky with the coordinate points labelled at 150, 350 and 200, 150 and 250, 350). The corners of the canvas are also labelled as x=0, y=0 in the top left and x=400, y=400 in the bottom right.](images/stand_coords.png){:width="400px"}
 
 --- code ---
 ---
 language: python
-filename: main.py — shoot_arrow()
+filename: main.py - draw()
 line_numbers: true
-line_number_start: 7
-line_highlights: 8-12
+line_number_start: 18
+line_highlights: 20, 21
 ---
-# The shoot_arrow function goes here    
-def shoot_arrow():   
-    arrow_x = randint(100, 300)  # Store a random number between 100 and 300    
-    arrow_y = randint(100, 300)  # Store a random number between 100 and 300    
-    fill('sienna')  # Set the arrow to fill colour to brown   
-    circle(arrow_x, arrow_y, 15)  # Draw a small circle at random coordinates
+    fill('lightgreen')  # Set the fill colour for the grass to light green
+    rect(0, 250, 400, 150)  # Draw a rectangle for the grass with these values for x, y, width, height
+    fill('sienna')  # Brown colour
+    triangle(150, 350, 200, 150, 250, 350)  # Draw a triangle for the target's stand
 
 --- /code ---
 
@@ -45,110 +40,126 @@ def shoot_arrow():
 
 --- task ---
 
-Go to the `draw` function and call your new `shoot_arrow` function. 
+**Test:** 🔄 Run your code to see the stand for your target: 
+
+![A brown triangle on grass and against a sky.](images/target-stand.png){:width="400px"}
+
+--- /task ---
+
+### Draw the target circles
+
+--- task ---
+
+The largest part of the target is a blue **circle**.
+
+Set the fill colour to `blue`. 
+
+Draw a circle with x and y coordinates for its centre and a width. 
+
+![A brown triangle and blue circle on grass and against a sky. The circle is labelled with the coordinates x=200, y=200 as the centre and circle width of 170.](images/circle-coords.png){:width="400px"}
 
 --- code ---
 ---
 language: python
-filename: main.py — draw()
+filename: main.py - draw()
 line_numbers: true
-line_number_start: 31
-line_highlights: 33
+line_number_start: 20
+line_highlights: 22, 23
 ---
-    fill('yellow')  # Set the colour for the circle fill to yellow      
-    circle(200, 200, 30)  # Draw the middle circle using x, y, width
-    shoot_arrow()
 
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** 🔄 Run your code and see the arrow appear in a random position each frame.
-
-![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
-
-The background and target will be drawn over the old arrow. This means you only see one arrow at a time.
-
---- /task ---
-
-### Get the colour hit by the arrow 
-
-The `get()` function returns the colour of a pixel.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for picture element, is a single coloured dot within an image. Images are made up of lots of coloured pixels.
-</p>
-
---- task ---
-
-Add a **global variable** called `hit_colour` that can be used throughout your code.
-
-Add code to `get` the colour of the pixel at the centre of the arrow and store it in the `hit_colour` variable. 
-In order to compare the colours, we need to use the hexadecimal code this can be done with the `.hex` string.
-
---- code ---
----
-language: python
-filename: main.py — shoot_arrow() 
-line_numbers: true
-line_number_start: 7
-line_highlights: 8, 11
----
-# The shoot_arrow function goes here     
-def shoot_arrow():
-    global hit_colour  # Can be used in other functions  
-    arrow_x = randint(100, 300)  # Store a random number between 100 and 300    
-    arrow_y = randint(100, 300)  # Store a random number between 100 and 300
-    hit_colour = get(arrow_x, arrow_y).hex  # Get the hit colour     
-    fill('sienna')  # Set the arrow to fill colour to brown   
-    circle(arrow_x, arrow_y, 15)  # Draw a small circle at random coordinates
+    fill('sienna')  # Brown colour
+    triangle(150, 350, 200, 150, 250, 350)  # Draw a triangle for the target's stand 
+    fill('blue')  # Set the circle fill colour to blue
+    circle(200, 200, 170)  # Draw the outer circle
   
 --- /code ---
 
-**Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle` otherwise you will always save the wood colour of the arrow! 
-
 --- /task ---
-
-### Print the colour when the mouse is pressed
-
-The `p5` library 'listens' for certain events, one of these is the press of the mouse button. When it detects that the button has been pressed, it will run whatever code it has been given in the `mouse_pressed` function.
 
 --- task ---
 
-Define your `mouse_pressed()` function under the comment **# The mouse_pressed function goes here**. 
+**Test:** Run your code to see the first large blue circle. 
 
-Add code to print the target emoji 🎯 when the mouse is clicked.
+The blue circle was drawn after the stand so it is in front.
+
+![A brown triangle and blue circle on grass and against a sky.](images/blue-circle.png){:width="400px"}
+
+--- /task ---
+
+The target is made of different-sized circles with the same centre coordinates (200, 200). 
+
+--- task ---
+
+**Add** coloured circles for the inner and middle parts of the target. 
 
 --- code ---
 ---
 language: python
-filename: main.py - mouse_pressed()
+filename: main.py - draw()
 line_numbers: true
-line_number_start: 5
-line_highlights: 6
+line_number_start: 20
+line_highlights: 24, 25
 ---
 
-# The mouse_pressed function goes here    
-def mouse_pressed():    
-    print('🎯')
+    fill('sienna')  # Brown colour
+    triangle(150, 350, 200, 150, 250, 350)  # Draw a triangle for the target's stand 
+    fill('blue')  # Set the circle fill colour to blue
+    circle(200, 200, 170)  # Draw the outer circle
+    fill('red')  # Set the colour for the circle fill to red
+    circle(200, 200, 110)  # Draw the inner circle using x, y, width
+    fill('yellow')  # Set the colour for the circle fill to yellow      
+    circle(200, 200, 30)  # Draw the middle circle using x, y, width
 
 --- /code ---
 
 --- /task ---
 
---- task --- 
+--- task ---
 
-**Test:** 🔄 Run your project. 
+**Test:** 🔄 Run your project to see the target with three coloured circles. 
 
-The project prints 🎯 each time the arrow is redrawn.
+![A brown triangle with three coloured circles on grass and against a sky.](images/three-circles.png){:width="400px"}
 
-![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
+--- /task ---
 
-**Debug:** 🐞 If you are seeing a message about `hit_colour` being 'not defined', then go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
+--- task ---
 
-**Debug:** 🐞 Check the `print` line really carefully for commas and brackets. 
+**Choose:** 💭 Change any of the colours using a different colour name. You can find a list of all of the available colour names on [W3 Schools](https://www.w3schools.com/colors/colors_names.asp){:target="blank"}. 
+
+![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
+
+--- collapse ---
+---
+title: Example code using different colours
+---
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
+line_number_start: 14
+line_highlights: 
+---
+    
+def draw():
+# Things to do in every frame
+    fill('BlueViolet')
+    rect(0, 0, 400, 250)  # Sky
+    fill('DeepSkyBlue')
+    rect(0, 250, 400, 150)  # Ground
+    fill('FireBrick')
+    triangle(150, 350, 200, 150, 250, 350)  # Stand
+    fill('LemonChiffon')
+    circle(200, 200, 170)  # Outer circle
+    fill('DeepPink')
+    circle(200, 200, 110)  # Inner circle
+    fill('BlueViolet')
+    circle(200, 200, 30)  # Middle circle
+  
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
 

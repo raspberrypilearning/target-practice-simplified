@@ -1,34 +1,80 @@
-## Upgrade your project
+## Score points
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Personalise and add more to your project. Perhaps you could change the difficulty level or add more circles to your target.
+Your game will add scores based on where the arrow hits.
 </div>
 <div>
 
-![The output area showing a target with five circles.](images/five_circles.png){:width="300px"}
+![An animation of the target, with the arrow appearing in a variety of positions, and scores appearing as text below the game.](images/points-scored.gif){:width="300px"}
 
 </div>
 </div>
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+We use <span style="color: #0faeb0; font-weight: bold;"> conditions</span> all the time to make decisions. We could say 'if the pencil is blunt, then sharpen it'. Similarly, `if` conditions let us write code that do something different depending on whether a condition is true or false.
+</p>
+
+### Display the scores
 
 --- task ---
 
-You could:
+Delete ❌ the `print('🎯')` line of code.
 
-+ Add a `fourth` and `fifth` circle, in new colours, which score different amounts of points based on their position 🟠🟣
-+ Put emojis in your print messages ([here's a list of emojis](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} you can copy from) 🎯
-+ Make the game easier or harder by changing the `frame_rate=2` value 💨
-+ Use `input()` to ask the user which difficulty level they want to play at 🗣️
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 5
+line_highlights: 7
+---
+# The mouse_pressed function goes here    
+def mouse_pressed():
+
+
+--- /code ---
 
 --- /task ---
 
-![Three project ideas, one has five circles, one has a difficulty input question and one has emojis in the points message.](images/upgrade-ideas.png)
+--- task ---
 
---- collapse ---
+Display a message **if** the `hit_colour` is equal to the `outer` circle colour (blue) 🎯. 
+
+Notice 👀 that the code uses two equals signs `==` to mean **equal to**.
+
+--- code ---
 ---
-title: Completed project
+language: python
+filename: main.py - mouse_pressed()
+line_numbers: true
+line_number_start: 5
+line_highlights: 7, 8
 ---
 
-You can view the [completed project here](https://editor.raspberrypi.org/projects/target-practice-solution){:target="_blank"}.
+# The mouse_pressed function goes here     
+def mouse_pressed():     
+    if hit_colour == Color('blue'):  # Like the code in functions, the code in 'if' statements is indented
+        print('You hit the outer circle, 50 points!')
 
---- /collapse ---
+--- /code ---
+
+**Tip:** 💡 If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
+
+--- /task ---
+
+--- task ---
+
+**Test:** 🔄 Run your project. Try to fire the arrow on the blue outer circle to see the message. 
+
+**Tip:** 💡 `frame_rate=2`, in `run` at the bottom of your code, controls how fast your game draws. If it's going too fast, set it to a lower number. 
+
+![The output area with arrow touching the outer circle. The points message is displayed in the output area.](images/blue-points.png)
+
+**Debug:** 🐞 Check that you have used the American spelling of 'Color' (without a 'u') and that 'Color' is capitalised.
+
+**Debug:** 🐞 Make sure your code matches exactly and you indented the code inside your `if` statement. 
+
+**Debug:** 🐞 Make sure that you have entered the correct colour name you used for **your** outer circle. 
+
+--- /task ---
