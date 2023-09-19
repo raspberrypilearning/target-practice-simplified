@@ -18,6 +18,8 @@ Draw a triangle using the x and y coordinates for each of the corners.
 
 ![A brown triangle on grass and against a sky with the coordinate points labelled at 150, 350 and 200, 150 and 250, 350). The corners of the canvas are also labelled as x=0, y=0 in the top left and x=400, y=400 in the bottom right.](images/stand_coords.png){:width="400px"}
 
+--- task ---
+
 --- code ---
 ---
 language: python
