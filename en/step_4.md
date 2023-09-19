@@ -10,6 +10,7 @@
 
 ### Draw a triangular stand
 Your game needs a target to shoot arrows at.
+
 --- task ---
 
 Set the fill colour to `sienna` (brown). 
@@ -120,6 +121,7 @@ line_highlights: 24, 25
 
 
 --- collapse ---
+
 ---
 title: Change the colours on the project
 ---
