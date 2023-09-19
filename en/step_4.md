@@ -132,12 +132,6 @@ Change any of the colours using a different colour name. You can find a list of 
 
 Example code using different colours:
 
-
-
---- /collapse ---
-
---- task ---
-
 --- code ---
 ---
 language: python
@@ -163,6 +157,6 @@ def draw():
   
 --- /code ---
 
---- /task ---
+--- /collapse ---
 
 --- save ---
