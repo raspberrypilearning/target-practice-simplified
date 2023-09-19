@@ -72,17 +72,17 @@ def mouse_pressed():
 title: Debug your code
 ---
 
-**Tip:** 💡 If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
+**Tip:** If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
 
-**Tip:** 💡 `frame_rate=2`, in `run` at the bottom of your code, controls how fast your game draws. If it's going too fast, set it to a lower number. 
+**Tip:** `frame_rate=2`, in `run` at the bottom of your code, controls how fast your game draws. If it's going too fast, set it to a lower number. 
 
 ![The output area with arrow touching the outer circle. The points message is displayed in the output area.](images/blue-points.png)
 
-**Debug:** 🐞 Check that you have used the American spelling of 'Color' (without a 'u') and that 'Color' is capitalised.
+**Debug:** Check that you have used the American spelling of 'Color' (without a 'u') and that 'Color' is capitalised.
 
-**Debug:** 🐞 Make sure your code matches exactly and you indented the code inside your `if` statement. 
+**Debug:** Make sure your code matches exactly and you indented the code inside your `if` statement. 
 
-**Debug:** 🐞 Make sure that you have entered the correct colour name you used for **your** outer circle. 
+**Debug:** Make sure that you have entered the correct colour name you used for **your** outer circle. 
 
 
 --- /collapse ---

@@ -116,7 +116,6 @@ line_highlights: 24, 25
 
 --- /task ---
 
---- task ---
 
 --- collapse ---
 ---
@@ -128,6 +127,12 @@ Change any of the colours using a different colour name. You can find a list of 
 ![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
 
 Example code using different colours:
+
+
+
+--- /collapse ---
+
+--- task ---
 
 --- code ---
 ---
@@ -153,8 +158,6 @@ def draw():
     circle(200, 200, 30)  # Middle circle
   
 --- /code ---
-
---- /collapse ---
 
 --- /task ---
 

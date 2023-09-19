@@ -83,9 +83,9 @@ The project prints 🎯 each time the arrow is redrawn.
 title: Debug hit colour not defined
 ---
 
-**Debug:** 🐞 If you are seeing a message about `hit_colour` being 'not defined', then go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
+**Debug:** If you are seeing a message about `hit_colour` being 'not defined', then go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
 
-**Debug:** 🐞 Check the `print` line really carefully for commas and brackets. 
+**Debug:** Check the `print` line really carefully for commas and brackets. 
 
 
 --- /collapse ---
