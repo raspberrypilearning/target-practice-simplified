@@ -1,9 +1,6 @@
 ## Draw your target
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game needs a target to shoot arrows at.
-</div>
 <div>
 
 ![The output area with the target and stand.](images/three-circles.png){:width="300px"}
@@ -12,7 +9,7 @@ Your game needs a target to shoot arrows at.
 </div>
 
 ### Draw a triangular stand
-
+Your game needs a target to shoot arrows at.
 --- task ---
 
 Set the fill colour to `sienna` (brown). 
@@ -121,14 +118,16 @@ line_highlights: 24, 25
 
 --- task ---
 
-**Choose:** 💭 Change any of the colours using a different colour name. You can find a list of all of the available colour names on [W3 Schools](https://www.w3schools.com/colors/colors_names.asp){:target="blank"}. 
+--- collapse ---
+---
+title: Change the colours on the project
+---
+
+Change any of the colours using a different colour name. You can find a list of all of the available colour names on [W3 Schools](https://www.w3schools.com/colors/colors_names.asp){:target="blank"}. 
 
 ![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
 
---- collapse ---
----
-title: Example code using different colours
----
+Example code using different colours:
 
 --- code ---
 ---

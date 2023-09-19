@@ -2,9 +2,15 @@
 
 The `get()` function returns the colour of a pixel.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+--- collapse ---
+
+---
+title: What is a pixel?
+---
+
 A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for picture element, is a single coloured dot within an image. Images are made up of lots of coloured pixels.
-</p>
+
+--- /collapse ---
 
 --- task ---
 
@@ -69,10 +75,19 @@ The project prints 🎯 each time the arrow is redrawn.
 
 ![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
 
+--- /task ---
+
+--- collapse ---
+
+---
+title: Debug hit colour not defined
+---
+
 **Debug:** 🐞 If you are seeing a message about `hit_colour` being 'not defined', then go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
 
 **Debug:** 🐞 Check the `print` line really carefully for commas and brackets. 
 
---- /task ---
+
+--- /collapse ---
 
 --- save ---

@@ -54,10 +54,17 @@ def setup():
 
 --- task ---
 
-**Run** your code again and notice 👀 that the border (stroke) has now disappeared.
+**Run** your code again. Did you notice 👀 that the border (stroke) has now disappeared?
+
+--- /task ---
+--- collapse ---
+
+---
+title: Tips for running your program
+---
 
 **Tip:** 💡 You will need to press **Stop** to stop your program, this will make the **Run** button reappear. 
 
 **Tip:** 💡 Coordinates start from (x=0, y=0) in the top left corner. This might be different to other coordinate systems you have used. 
 
---- /task ---
+--- /collapse ---

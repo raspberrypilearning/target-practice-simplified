@@ -12,7 +12,7 @@ Your game will add scores based on where the arrow hits.
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0; font-weight: bold;"> conditions</span> all the time to make decisions. We could say 'if the pencil is blunt, then sharpen it'. Similarly, `if` conditions let us write code that do something different depending on whether a condition is true or false.
+`if`<span style="color: #0faeb0; font-weight: bold;"> conditions</span> let us write code to do something different depending on whether a condition is true or false. In the real world we make decisions all the time. For example, we could say 'if the pencil is blunt, then sharpen it'. 
 </p>
 
 ### Display the scores
@@ -59,13 +59,20 @@ def mouse_pressed():
 
 --- /code ---
 
-**Tip:** 💡 If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
-
 --- /task ---
 
 --- task ---
 
 **Test:** 🔄 Run your project. Try to fire the arrow on the blue outer circle to see the message. 
+
+--- /task ---
+--- collapse ---
+
+---
+title: Debug your code
+---
+
+**Tip:** 💡 If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
 
 **Tip:** 💡 `frame_rate=2`, in `run` at the bottom of your code, controls how fast your game draws. If it's going too fast, set it to a lower number. 
 
@@ -77,4 +84,5 @@ def mouse_pressed():
 
 **Debug:** 🐞 Make sure that you have entered the correct colour name you used for **your** outer circle. 
 
---- /task ---
+
+--- /collapse ---

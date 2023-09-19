@@ -2,7 +2,7 @@
 
 --- task ---
 
-**Add** code to draw a green rectangle at the bottom of the screen.
+**Add** the code to draw a green rectangle at the bottom of the screen.
 
 ![The output area with a sky-coloured rectangle above a grass-coloured rectangle to create the background. The top left corner of the rectangle is marked as x=0, y=250 this is the origin of the rectangle. The width is highlighted as 400 and the height as 150. The code rect(0, 250, 400, 150) is shown.](images/green-grass.png){:width="400px"}
 
@@ -35,7 +35,7 @@ title: Using comments
 
 --- task ---
 
-**Test:** 🔄 Run your project again to view the finished background. 
+**Test:** 🔄 Run your project again to view the green area on the background. 
 
 ![The output area with a sky-coloured rectangle above a grass-coloured rectangle to create the background.](images/background.png){:width="400px"}
 

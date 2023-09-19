@@ -1,9 +1,6 @@
 ## Fire your arrow
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-When you click or tap, an arrow will fire at the position of a moving target circle. 
-</div>
 <div>
 
 ![The target, with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif){:width="300px"}
@@ -13,7 +10,7 @@ When you click or tap, an arrow will fire at the position of a moving target cir
 
 ### Draw a target circle every frame
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> Computers create the effect of movement by showing lots of images one after another. Each image is called a <span style="color: #0faeb0; font-weight: bold;"> frame </span>.   
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> A <span style="color: #0faeb0; font-weight: bold;"> frame </span> is a computer effect of movement by showing lots of images one after another. 
 </p>
 
 --- task ---
@@ -63,7 +60,7 @@ line_highlights: 33
 
 --- task ---
 
-**Test:** 🔄 Run your code and see the arrow appear in a random position each frame.
+**Test:** 🔄 Run your code to see the arrow appear in a random position each frame.
 
 ![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
 
