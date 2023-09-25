@@ -33,6 +33,14 @@ def mouse_pressed():
 
 ![The output area with arrow touching the inner circle. The points message is displayed in the output area.](images/yellow-points.png)
 
+--- /task ---
+
+--- collapse ---
+
+---
+title: Debug your code
+---
+
 **Debug:** 🐞 Check your indentation matches the example.
 
 **Debug:** 🐞 If you see a message about `hit_colour` being 'not defined', then go back to `draw()` and check that the line declares `hit_colour` as a global variable.
@@ -41,7 +49,7 @@ def mouse_pressed():
 
 **Debug:** 🐞 Make sure that you have used the `.hex` string for **your** circle colours. 
 
---- /task ---
+--- /collapse ---
 
 ### Missing the target
 

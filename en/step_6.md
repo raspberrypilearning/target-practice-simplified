@@ -24,7 +24,7 @@ In order to compare the colours, we need to use the hexadecimal code this can be
 language: python
 line_numbers: true
 line_number_start: 7
-line_highlights: 8, 11
+line_highlights: 9, 12
 ---
 # The shoot_arrow function goes here     
 def shoot_arrow():
@@ -37,9 +37,17 @@ def shoot_arrow():
   
 --- /code ---
 
+--- /task ---
+
+--- collapse ---
+
+---
+title: Tip for your code
+---
+
 **Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle` otherwise you will always save the wood colour of the arrow! 
 
---- /task ---
+--- /collapse ---
 
 ### Print the colour when the mouse is pressed
 

@@ -10,7 +10,7 @@
 
 ### Draw a target circle every frame
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> A <span style="color: #0faeb0; font-weight: bold;"> frame </span> is a computer effect of movement by showing lots of images one after another. 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> Computers create the effect of movement by showing lots of images one after another. Each image is called a <span style="color: #0faeb0; font-weight: bold;"> frame </span>.   
 </p>
 
 --- task ---
@@ -64,7 +64,15 @@ line_highlights: 33
 
 ![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
 
+--- /task ---
+
+--- collapse ---
+
+---
+title: I cannot see all the arrows
+---
+
 The background and target will be drawn over the old arrow. This means you only see one arrow at a time.
 
---- /task ---
+--- /collapse ---
 
