@@ -8,7 +8,7 @@ The `get()` function returns the colour of a pixel.
 title: What is a pixel?
 ---
 
-A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for picture element, is a single coloured dot within an image. Images are made up of lots of coloured pixels.
+A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for 'picture element', is a single coloured dot within an image. Images are made up of lots of coloured pixels.
 
 --- /collapse ---
 
@@ -16,8 +16,7 @@ A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for pictu
 
 Add a **global variable** called `hit_colour` that can be used throughout your code.
 
-Add code to `get` the colour of the pixel at the centre of the arrow and store it in the `hit_colour` variable. 
-In order to compare the colours, we need to use the hexadecimal code this can be done with the `.hex` string.
+Add code to `get` the colour of the pixel at the centre of the arrow and store it in the `hit_colour` variable. To compare the colours, you need to use the hexadecimal code. You can do this with the `.hex` string.
 
 --- code ---
 ---
@@ -32,7 +31,7 @@ def shoot_arrow():
     arrow_x = randint(100, 300)  # Store a random number between 100 and 300    
     arrow_y = randint(100, 300)  # Store a random number between 100 and 300
     hit_colour = get(arrow_x, arrow_y).hex  # Get the hit colour     
-    fill('sienna')  # Set the arrow to fill colour to brown   
+    fill('sienna')  # Set the arrow fill colour to brown   
     circle(arrow_x, arrow_y, 15)  # Draw a small circle at random coordinates
   
 --- /code ---
@@ -45,17 +44,17 @@ def shoot_arrow():
 title: Tip for your code
 ---
 
-**Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle` otherwise you will always save the wood colour of the arrow! 
+**Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle`, otherwise you will always save the colour of the arrow!
 
 --- /collapse ---
 
 ### Print the colour when the mouse is pressed
 
-The `p5` library 'listens' for certain events, one of these is the press of the mouse button. When it detects that the button has been pressed, it will run whatever code it has been given in the `mouse_pressed` function.
+The `p5` library 'listens' for certain events. One of these events is the press of the mouse button. When it detects that the button has been pressed, it will run whatever code is in the `mouse_pressed` function.
 
 --- task ---
 
-Define your `mouse_pressed()` function under the comment **# The mouse_pressed function goes here**. 
+Define your `mouse_pressed()` function under the comment `# The mouse_pressed function goes here`. 
 
 Add code to print the target emoji 🎯 when the mouse is clicked.
 
@@ -79,21 +78,21 @@ def mouse_pressed():
 
 **Test:** 🔄 Run your project. 
 
-The project prints 🎯 each time the arrow is redrawn.
+The project prints 🎯 each time the mouse is clicked.
 
-![An animation of target with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
+![An animation of a target with a brown circle arrow appearing in different positions.](images/fire_arrow.gif)
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: Debug hit colour not defined
+title: Debug "hit_colour not defined"
 ---
 
-**Debug:** If you are seeing a message about `hit_colour` being 'not defined', then go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
+**Debug:** If you see a message about `hit_colour` being "not defined", go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
 
-**Debug:** Check the `print` line really carefully for commas and brackets. 
+**Debug:** Check the `print` line really carefully for commas and brackets.
 
 
 --- /collapse ---

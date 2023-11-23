@@ -10,7 +10,7 @@ Have fun!
 ---
 legend: Question 1 of 3
 ---
-Here is a blue square, what are the RGB values that will create it?
+Here is a blue square. What are the RGB values that will create it?
 
 ![A single block of blue colour.](images/quiz-colour.png)
 
@@ -20,7 +20,7 @@ Here is a blue square, what are the RGB values that will create it?
 
   --- feedback ---
 
-Not quite, when all the colour values are set to `0`, the color is **black**.
+Not quite. When all the colour values are set to `0`, the colour is **black**.
 
   --- /feedback ---
 
@@ -28,7 +28,7 @@ Not quite, when all the colour values are set to `0`, the color is **black**.
 
   --- feedback ---
 
-Not quite, colours follow the RGB model. This colour has maximum R value and no G or B, so will be **red**.
+Not quite. Colours follow the RGB model. This colour has maximum R value and no G or B, so will be **red**.
 
   --- /feedback ---
 
@@ -36,7 +36,7 @@ Not quite, colours follow the RGB model. This colour has maximum R value and no 
 
   --- feedback ---
 
-  That's correct! Colours follow the RGB model. This colour has no R or G, but maximum B, so will be **blue**.
+  That's correct. Colours follow the RGB model. This colour has no R or G, but maximum B, so will be **blue**.
 
   --- /feedback ---
 
@@ -44,7 +44,7 @@ Not quite, colours follow the RGB model. This colour has maximum R value and no 
 
   --- feedback ---
 
-  Not quite, when all the colour values are set to the `255` maximum, the color is **white**.
+  Not quite. When all the colour values are set to the maximum `255`, the colour is **white**.
 
   --- /feedback ---
 

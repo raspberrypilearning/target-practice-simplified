@@ -29,9 +29,9 @@ def mouse_pressed():
 
 --- task ---
 
-**Test:** 🔄 Run your project. Try to fire the arrow on the inner and middle circles to see their messages.
+**Test:** 🔄 Run your project. Try to fire the arrow on the inner and middle circles to see the messages.
 
-![The output area with arrow touching the inner circle. The points message is displayed in the output area.](images/yellow-points.png)
+![An arrow touching the inner circle of the target in the Visual Output area. The points message is displayed in the Text Output area.](images/yellow-points.png)
 
 --- /task ---
 
@@ -41,13 +41,13 @@ def mouse_pressed():
 title: Debug your code
 ---
 
-**Debug:** 🐞 Check your indentation matches the example.
+**Debug:** 🐞 Check that your indentation matches the example.
 
-**Debug:** 🐞 If you see a message about `hit_colour` being 'not defined', then go back to `draw()` and check that the line declares `hit_colour` as a global variable.
+**Debug:** 🐞 If you see a message about `hit_colour` being "not defined", go back to `draw()` and check that the line declares `hit_colour` as a global variable.
 
-**Debug:** 🐞 Make sure that you have entered the correct colour name for **your** circles. 
+**Debug:** 🐞 Make sure you have entered the correct colour names for **your** circles. 
 
-**Debug:** 🐞 Make sure that you have used the `.hex` string for **your** circle colours. 
+**Debug:** 🐞 Make sure you have used the `.hex` string for **your** circle colours.
 
 --- /collapse ---
 
@@ -88,7 +88,7 @@ def mouse_pressed():
 
 **Test:** 🔄 Run your project. Fire the arrow in the grass or sky to see the miss message. 
 
-**Choose:** 💭 Change the number of points scored for the different colours.
+**Choose:** 💭 Change the number of points scored for hitting the different colours.
 
 --- /task ---
 

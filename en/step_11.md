@@ -4,7 +4,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- print-only ---
 
-![Rocket launch project.](images/showcase_rocket.png){:width="600px"}
+![Three examples of rocket launches in the project.](images/showcase_rocket.png){:width="600px"}
 
 --- /print-only ---
 
@@ -21,7 +21,7 @@ Click the **Run** button to view an example of this project.
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/rocket-launch-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-![Rocket launch project](images/showcase_rocket.png){:width="600px"}
+![Three examples of rocket launches in the project.](images/showcase_rocket.png){:width="600px"}
 
 --- /task ---
 

@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div>
 
-![The output area with the target and stand.](images/three-circles.png){:width="300px"}
+![A target and stand in front of the background.](images/three-circles.png){:width="300px"}
 
 </div>
 </div>
@@ -17,7 +17,7 @@ Set the fill colour to `sienna` (brown).
 
 Draw a triangle using the x and y coordinates for each of the corners.
 
-![A brown triangle on grass and against a sky with the coordinate points labelled at 150, 350 and 200, 150 and 250, 350). The corners of the canvas are also labelled as x=0, y=0 in the top left and x=400, y=400 in the bottom right.](images/stand_coords.png){:width="400px"}
+![A brown triangle on grass and against a sky. The corners of the triangle are labelled as x=150, y=350; x=200, y=150; and x=250, y=350. The corners of the canvas are also labelled as x=0, y=0 in the top left-hand corner and x=400, y=400 in the bottom right-hand corner.](images/stand_coords.png){:width="400px"}
 
 --- code ---
 ---
@@ -37,7 +37,7 @@ line_highlights: 20, 21
 
 --- task ---
 
-**Test:** 🔄 Run your code to see the stand for your target: 
+**Test:** 🔄 Run your code to see the stand for your target.
 
 ![A brown triangle on grass and against a sky.](images/target-stand.png){:width="400px"}
 
@@ -51,9 +51,9 @@ The largest part of the target is a blue **circle**.
 
 Set the fill colour to `blue`. 
 
-Draw a circle with x and y coordinates for its centre and a width. 
+Draw a circle with x and y coordinates for its centre and a width.
 
-![A brown triangle and blue circle on grass and against a sky. The circle is labelled with the coordinates x=200, y=200 as the centre and circle width of 170.](images/circle-coords.png){:width="400px"}
+![A blue circle over a brown triangle on grass and against a sky. The centre of the circle is labelled with the coordinates x=200, y=200 and the circle width is labelled as 170.](images/circle-coords.png){:width="400px"}
 
 --- code ---
 ---
@@ -74,19 +74,19 @@ line_highlights: 22, 23
 
 --- task ---
 
-**Test:** Run your code to see the first large blue circle. 
+**Test:** 🔄 Run your code to see the first large blue circle. 
 
-The blue circle was drawn after the stand so it is in front.
+The blue circle was drawn after the stand, so it is in front.
 
-![A brown triangle and blue circle on grass and against a sky.](images/blue-circle.png){:width="400px"}
+![A blue circle over a brown triangle on grass and against a sky.](images/blue-circle.png){:width="400px"}
 
 --- /task ---
 
-The target is made of different-sized circles with the same centre coordinates (200, 200). 
+The target is made of different-sized circles with the same coordinates for the centre (200, 200).
 
 --- task ---
 
-**Add** coloured circles for the inner and middle parts of the target. 
+**Add** coloured circles for the inner and middle parts of the target.
 
 --- code ---
 ---
@@ -111,9 +111,9 @@ line_highlights: 24, 25
 
 --- task ---
 
-**Test:** 🔄 Run your project to see the target with three coloured circles. 
+**Test:** 🔄 Run your project to see the target with three coloured circles.
 
-![A brown triangle with three coloured circles on grass and against a sky.](images/three-circles.png){:width="400px"}
+![A target made up of blue, red, and yellow circles over a brown triangle on grass and against a sky.](images/three-circles.png){:width="400px"}
 
 --- /task ---
 
@@ -121,12 +121,12 @@ line_highlights: 24, 25
 --- collapse ---
 
 ---
-title: Change the colours on the project
+title: Change the colours in your project
 ---
 
-Change any of the colours using a different colour name. You can find a list of all of the available colour names on [W3 Schools](https://www.w3schools.com/colors/colors_names.asp){:target="blank"}. 
+To change any of the colours, use a different colour name. You can find a list of all of the available colour names on [W3Schools](https://www.w3schools.com/colors/colors_names.asp){:target="blank"}. 
 
-![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
+![A target made up of yellow, pink, and purple circles on a red stand, on blue ground and against a purple sky.](images/alternative-colours.png){:width="400px"}
 
 Example code using different colours:
 

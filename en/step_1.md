@@ -4,7 +4,7 @@
 
 ## You will make
 
-Use Python and the `p5` graphics library, to draw a target. Score points by hitting it with arrows. 
+Use Python and the `p5` graphics library to draw a target. Hit the target with arrows to score points.
 
 --- no-print ---
 
@@ -22,7 +22,7 @@ Click the **Run** button below to start the game. When the dot appears on the ta
 </div>
 </div>
 
-**Tip:** 💡 When you press **Stop** you will see a prompt that says 'Execution interrupted'. This just means that you have stopped the program whilst the code was still running. 
+**Tip:** 💡 When you press **Stop**, you will see a prompt that says "Execution interrupted". This just means that you have stopped the program whilst the code was still running.
 
 --- /task ---
 
@@ -30,12 +30,12 @@ Click the **Run** button below to start the game. When the dot appears on the ta
 
 --- print-only ---
 
-![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
+![The Code Editor Visual Output area showing an archery target with a hit mark on the outer circle. The text "You hit the outer circle, 50 points!" is displayed in the Text Output area below.](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The oldest evidence of <span style="color: #0faeb0; font-weight: bold;"> archery </span> comes from South Africa. Stone and bone arrowheads remains aged around 70,000 years old have been found. 
+The oldest evidence of <span style="color: #0faeb0; font-weight: bold;">archery</span> comes from South Africa. Remains of stone and bone arrowheads that are 60,000 to 70,000 years old have been found.
 </p>
 
 ![](http://code.org/api/hour/begin_coderdojo_target.png)

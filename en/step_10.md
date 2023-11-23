@@ -16,13 +16,13 @@ Personalise and add more to your project. Perhaps you could change the difficult
 You could:
 
 + Add a `fourth` and `fifth` circle, in new colours, which score different amounts of points based on their position 🟠🟣
-+ Put emojis in your print messages ([here's a list of emojis](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} you can copy from) 🎯
-+ Make the game easier or harder by changing the `frame_rate=2` value 💨
++ Put emojis in your print messages ([here is a list of emojis](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} you can copy from) 🎯
++ Change the `frame_rate=2` value to make the game easier or harder 💨
 + Use `input()` to ask the user which difficulty level they want to play at 🗣️
 
 --- /task ---
 
-![Three project ideas, one has five circles, one has a difficulty input question and one has emojis in the points message.](images/upgrade-ideas.png)
+![Three project ideas, one has a target with five circles, one has a difficulty input question, and one has emojis in the points message.](images/upgrade-ideas.png)
 
 --- collapse ---
 ---

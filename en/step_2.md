@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div>
 
-![The output area with a sky-coloured rectangle above a grass-coloured rectangle to create the background.](images/background.png){:width="300px"}
+![A background made up of a sky-coloured rectangle above a grass-coloured rectangle.](images/background.png){:width="300px"}
 
 </div>
 </div>
@@ -12,9 +12,9 @@
 
 --- task ---
 
-Open the [Target practice starter](https://editor.raspberrypi.org/en/projects/target-practice-starter){:target="_blank"} project. The code editor will open in another browser tab.
+Open the [Target practice starter project](https://editor.raspberrypi.org/en/projects/target-practice-starter){:target="_blank"}. The Code Editor will open in another browser tab.
 
-If you have a Raspberry Pi account, click on the **Save** button to save a copy to your **Projects**.
+If you have a Raspberry Pi account, click the **Save** button to save a copy to your **Projects**.
 
 --- /task ---
 
@@ -22,11 +22,11 @@ If you have a Raspberry Pi account, click on the **Save** button to save a copy 
 
 --- task ---
 
-The starter project has code already written for you. 
+The starter project has code that has already been written for you. 
 
-Click **'Run'** to see a blue filled rectangle which is the sky in your project. 
+Click on **Run** to see a blue-filled rectangle, which is the sky in your project.
 
-![A blue rectangle with a black border around it, above a grey rectangle. The top left corner of the canvas is marked as x=0, y=0 this is the origin of the rectangle. The width is highlighted as 400 and the height as 250. The code rect(0, 0, 400, 250) is shown.](images/sky_stroke.png){:width="400px"}
+![A blue rectangle with a black border around it, above a grey rectangle. The top left-hand corner of the blue rectangle is marked as x=0, y=0. The width is highlighted as 400 and the height as 250. Below the blue rectangle, the code rect(0, 0, 400, 250) is shown.](images/sky_stroke.png){:width="400px"}
 
 --- /task ---
 
@@ -44,8 +44,8 @@ line_number_start: 9
 line_highlights: 12
 ---
 def setup():
-# Setup your game here
-    size(400, 400)  # Width and height of screen
+# Set up your game here
+    size(400, 400)  # width and height of screen
     no_stroke()
 
 --- /code ---
@@ -63,8 +63,8 @@ def setup():
 title: Tips for running your program
 ---
 
-**Tip:** 💡 You will need to press **Stop** to stop your program, this will make the **Run** button reappear. 
+**Tip:** 💡 To stop your program, you need to press **Stop**. This will make the **Run** button reappear.
 
-**Tip:** 💡 Coordinates start from (x=0, y=0) in the top left corner. This might be different to other coordinate systems you have used. 
+**Tip:** 💡 Coordinates start from (x=0, y=0) in the top left-hand corner. This might be different to other coordinate systems you have used.
 
 --- /collapse ---
