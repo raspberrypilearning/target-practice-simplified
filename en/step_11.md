@@ -16,7 +16,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 **Tip:** Around 25,000kg should be enough, but experiment with the numbers to see what happens.
 
-Click the **Run** button to view an example of this project.
+Click the **Run** button to see an example of this project.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/rocket-launch-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
