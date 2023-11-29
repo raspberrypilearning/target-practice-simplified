@@ -16,7 +16,7 @@ A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for 'pict
 
 Add a **global variable** called `hit_colour` that can be used throughout your code.
 
-Add code to `get` the colour of the pixel at the centre of the arrow and store it in the `hit_colour` variable. To compare the colours, you need to use the hexadecimal code. You can do this with the `.hex` string.
+Add code to `get()` the colour of the pixel at the centre of the arrow and store it in the `hit_colour` variable. To compare the colours, you need to use the hexadecimal code. You can do this with the `.hex` string.
 
 --- code ---
 ---
@@ -44,13 +44,13 @@ def shoot_arrow():
 title: Tip for your code
 ---
 
-**Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle`, otherwise you will always save the colour of the arrow!
+The code to `get()` the colour needs to be **before** the code to draw the `circle()`, otherwise you will always save the colour of the arrow!
 
 --- /collapse ---
 
 ### Print the colour when the mouse is pressed
 
-The `p5` library 'listens' for certain events. One of these events is the press of the mouse button. When it detects that the button has been pressed, it will run whatever code is in the `mouse_pressed` function.
+The `p5` library 'listens' for certain events. One of these events is the press of the mouse button. When the library detects that the button has been pressed, it will run whatever code is in the `mouse_pressed` function.
 
 --- task ---
 
@@ -63,7 +63,7 @@ Add code to print the target emoji 🎯 when the mouse is clicked.
 language: python
 line_numbers: true
 line_number_start: 5
-line_highlights: 6
+line_highlights: 6,7
 ---
 
 # The mouse_pressed function goes here    
@@ -87,12 +87,12 @@ The project prints 🎯 each time the mouse is clicked.
 --- collapse ---
 
 ---
-title: Debug "hit_colour not defined"
+title: Debug your code
 ---
 
-**Debug:** If you see a message about `hit_colour` being "not defined", go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
+If you see a message about `hit_colour` being "not defined", go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
 
-**Debug:** Check the `print` line really carefully for commas and brackets.
+Check the `print` line really carefully for commas and brackets.
 
 
 --- /collapse ---

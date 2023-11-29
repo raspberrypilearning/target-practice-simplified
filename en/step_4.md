@@ -93,7 +93,7 @@ The target is made of different-sized circles with the same coordinates for the 
 language: python
 line_numbers: true
 line_number_start: 20
-line_highlights: 24, 25
+line_highlights: 24,25,26,27
 ---
 
     fill('sienna')  # Brown colour
@@ -135,7 +135,6 @@ Example code using different colours:
 language: python
 line_numbers: false
 line_number_start: 14
-line_highlights: 
 ---
     
 def draw():

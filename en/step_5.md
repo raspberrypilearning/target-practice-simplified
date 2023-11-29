@@ -8,7 +8,7 @@
 </div>
 </div>
 
-### Draw an arrow circle every frame
+### Draw a target circle every frame
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> Computers create the effect of movement by showing lots of images one after another. Each image is called a <span style="color: #0faeb0; font-weight: bold;">frame</span>.  
 </p>
@@ -41,7 +41,7 @@ def shoot_arrow():
 
 --- task ---
 
-Go to the `draw` function and call your new `shoot_arrow` function. 
+Go to the `draw()` function and call your new `shoot_arrow()` function. 
 
 --- code ---
 ---

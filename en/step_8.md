@@ -40,13 +40,13 @@ def mouse_pressed():
 title: Debug your code
 ---
 
-**Debug:** 🐞 Check that your indentation matches the example.
++ Check that your indentation matches the example.
 
-**Debug:** 🐞 If you see a message about `hit_colour` being "not defined", go back to `draw()` and check that the line declares `hit_colour` as a global variable.
++ If you see a message about `hit_colour` being "not defined", go back to `shoot_arrow()` and check the line that declares `hit_colour` as a global variable.
 
-**Debug:** 🐞 Make sure you have entered the correct colour names for **your** circles. 
++ Make sure you have entered the correct colour names for your circles. 
 
-**Debug:** 🐞 Make sure you have used the `.hex` string for **your** circle colours.
++ Make sure you have used the `.hex` string for your circle colours.
 
 --- /collapse ---
 
@@ -58,7 +58,7 @@ To do this last check, you use `else`.
 
 --- task ---
 
-Add code to `print` a message `else` none of the `if` and `elif` statements have been met.
+Add code to `print()` a message `else` none of the `if` and `elif` conditions have been met.
 
 --- code ---
 ---
@@ -86,7 +86,7 @@ def mouse_pressed():
 
 **Test:** 🔄 Run your project. Fire the arrow in the grass or sky to see the miss message. 
 
-**Choose:** 💭 Change the number of points scored for hitting the different colours.
+**Choose:** 💭 Change the number of points scored for hitting the different circles.
 
 --- /task ---
 
