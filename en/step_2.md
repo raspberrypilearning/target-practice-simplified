@@ -60,11 +60,11 @@ def setup():
 --- collapse ---
 
 ---
-title: Tips for running your program
+title: Tips on coordinates and running your program
 ---
 
-**Tip:** 💡 To stop your program, you need to press **Stop**. This will make the **Run** button reappear.
+To stop your program, you need to press **Stop**. This will make the **Run** button reappear.
 
-**Tip:** 💡 Coordinates start from (x=0, y=0) in the top left-hand corner. This might be different to other coordinate systems you have used.
+Coordinates start from (x=0, y=0) in the top left-hand corner. This might be different to other coordinate systems you have used.
 
 --- /collapse ---

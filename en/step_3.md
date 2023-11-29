@@ -27,9 +27,9 @@ def draw():
 --- collapse ---
 
 ---
-title: Comments
+title: Tips on Comments
 ---
-**Tip:** 💡 Comments are useful because they remind you what lines of code do. We have added comments to our code, like `# Set the fill colour for the sky to cyan`, to tell you what the code does.
+Comments are useful because they remind you what lines of code do. We have added comments to our code, like `# Set the fill colour for the sky to cyan`, to tell you what the code does.
 
 --- /collapse ---
 

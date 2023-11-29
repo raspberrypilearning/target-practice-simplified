@@ -9,7 +9,6 @@ Score points if the arrow lands on the `inner` or `middle` circles 🎯:
 --- code ---
 ---
 language: python
-filename: main.py - mouse_pressed()
 line_numbers: true
 line_number_start: 6
 line_highlights: 9-12
@@ -64,7 +63,6 @@ Add code to `print` a message `else` none of the `if` and `elif` statements have
 --- code ---
 ---
 language: python
-filename: main.py
 line_numbers: true
 line_number_start: 6
 line_highlights: 13-14

@@ -24,7 +24,6 @@ Delete ❌ the line of code `print('🎯')`.
 --- code ---
 ---
 language: python
-filename: main.py
 line_numbers: true
 line_number_start: 5
 line_highlights: 7
@@ -46,7 +45,6 @@ Notice 👀 that the code uses two equals signs `==` to mean **equal to**.
 --- code ---
 ---
 language: python
-filename: main.py - mouse_pressed()
 line_numbers: true
 line_number_start: 5
 line_highlights: 7, 8
