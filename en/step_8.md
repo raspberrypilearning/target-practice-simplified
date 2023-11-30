@@ -86,7 +86,7 @@ def mouse_pressed():
 
 **Test:** 🔄 Run your project. Fire the arrow in the grass or sky to see the miss message. 
 
-**Choose:** 💭 Change the number of points scored for hitting the different circles.
+**Choose:** 💭 Change the number of points scored for hitting the different circles(colours).
 
 --- /task ---
 

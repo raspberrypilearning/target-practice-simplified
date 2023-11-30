@@ -31,7 +31,7 @@ Which of the images below shows the correct position of this circle in the outpu
 
   --- feedback ---
   
-  Not quite. To centre the circle in the bottom right-hand corner, the coordinates would need to be the same as the screen size. In this example, the ellipse would be `circle(400, 400, 300)`.
+  Not quite. To centre the circle in the bottom right-hand corner, the coordinates would need to be the same as the screen size. In this example, the code would be `circle(400, 400, 300)`.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ Which of the images below shows the correct position of this circle in the outpu
 
   --- feedback ---
   
-  No, this circle would have code of `circle(350, 150, 300)` to centre it towards the top right-hand side of the screen. The `x` coordinate is how far across the screen the ellipse is, and the `y` coordinate is how far down the screen it is.
+  No, this circle would have code of `circle(350, 150, 300)` to centre it towards the top right-hand side of the screen. The `x` coordinate is how far across the screen the circle is, and the `y` coordinate is how far down the screen it is.
 
   --- /feedback ---
 

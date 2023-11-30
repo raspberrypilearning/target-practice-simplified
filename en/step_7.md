@@ -80,7 +80,5 @@ Check that you have used the American spelling of `Color` (without a 'u') and th
 
 **Debug:** Make sure your code matches exactly and you have indented the code inside your `if` statement. 
 
-**Debug:** Make sure you have entered the correct colour name you used for **your** outer circle. 
-
 
 --- /collapse ---

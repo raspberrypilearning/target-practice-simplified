@@ -15,13 +15,13 @@ language: python
 speed = 6
 
 if speed == 7:
-  print('Super fast')
+    print('Super fast')
 elif speed == 5:
-  print('Pretty quick')
+    print('Pretty quick')
 elif speed == 6:
-  print('Very fast')
+    print('Very fast')
 else:
-  print('Speed not recognised!') 
+    print('Speed not recognised!') 
 
 --- /code ---
 
@@ -31,7 +31,7 @@ else:
 
   --- feedback ---
 
-  That's correct. The `speed` variable has been assigned the value `6`, which makes the `speed == 6` condition **True** and prints `Very fast`.
+  That's correct. The `speed` variable has been assigned the value `6`, which makes the `speed == 6` condition **True** so the program prints `Very fast`.
 
   --- /feedback ---
 
@@ -47,7 +47,7 @@ else:
 
   --- feedback ---
   
-  Try again. `else` is used as a final option for when all the above conditions are false. Look through the conditions again. Are any of the conditions true?  
+  Try again. `else` is used as a final option for when all the other conditions are false. Look through the conditions again. Are any of the conditions true?  
 
   --- /feedback ---
 
