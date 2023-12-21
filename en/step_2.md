@@ -34,7 +34,7 @@ Click on **Run** to see a blue-filled rectangle, which is the sky in your projec
 
 The sky has been drawn with a black border (stroke). 
 
-Turn the stroke off for all shapes. Add `no_stroke()` to the `setup` function:
+Turn the stroke off for all shapes. Add `no_stroke()` to the `setup()` function:
 
 --- code ---
 ---

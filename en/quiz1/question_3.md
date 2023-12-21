@@ -39,7 +39,7 @@ Which of the images below shows the correct position of this circle in the outpu
 
   --- feedback ---
 
-  Not quite. To centre the circle in the middle, the coordinates would need to be half of the screen size — in this example, `circle(200, 200, 300)`. 
+  Not quite. To centre the circle in the middle, the coordinates would need to be half of the screen size. In this example, the code would be `circle(200, 200, 300)`.
 
   --- /feedback ---
 

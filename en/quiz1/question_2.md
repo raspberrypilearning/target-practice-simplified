@@ -31,7 +31,7 @@ else:
 
   --- feedback ---
 
-  That's correct. The `speed` variable has been assigned the value `6`, which makes the `speed == 6` condition **True** so the program prints `Very fast`.
+  That's correct. The `speed` variable has been assigned the value `6`, which makes the `speed == 6` condition **True**, so the program prints `Very fast`.
 
   --- /feedback ---
 

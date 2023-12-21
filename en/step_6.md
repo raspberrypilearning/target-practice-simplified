@@ -50,7 +50,7 @@ The code to `get()` the colour needs to be **before** the code to draw the `circ
 
 ### Print the colour when the mouse is pressed
 
-The `p5` library 'listens' for certain events. One of these events is the press of the mouse button. When the library detects that the button has been pressed, it will run whatever code is in the `mouse_pressed` function.
+The `p5` library 'listens' for certain events. One of these events is the press of the mouse button. When the library detects that the button has been pressed, it will run whatever code is in the `mouse_pressed()` function.
 
 --- task ---
 
@@ -92,7 +92,7 @@ title: Debug your code
 
 If you see a message about `hit_colour` being "not defined", go back to `shoot_arrow()` and check that you have included the `global hit_colour` line.
 
-Check the `print` line really carefully for commas and brackets.
+Check the `print()` line really carefully for quotes and brackets.
 
 
 --- /collapse ---

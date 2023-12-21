@@ -10,7 +10,7 @@ Have fun!
 ---
 legend: Question 1 of 3
 ---
-In your project you added no_stroke() to your setup function. What does the no_stroke() function do?
+In your project, you added `no_stroke()` to your `setup()` function. What does the `no_stroke()` function do?
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ def setup():
 
   --- feedback ---
 
-Not quite. The size() fucntion does this in this example.
+Not quite. In this example, the `size()` function does this.
 
   --- /feedback ---
 
@@ -37,23 +37,23 @@ Not quite. The size() fucntion does this in this example.
 
   --- feedback ---
 
-Not quite. The fill() function does this and will usually include a given colour.
+Not quite. The `fill()` function does this and will usually include a given colour.
 
   --- /feedback ---
 
-- (x) It turns off the border(stroke) for all the shapes.
+- (x) It turns off the border (stroke) for all the shapes.
 
   --- feedback ---
 
-  That's correct. A black border will be drawn aorund your shapes if you do not use this function.
+  That's correct. If you do not use this function, a black border will be drawn around your shapes.
 
   --- /feedback ---
 
-- ( ) It will draw a circle shape in your program.
+- ( ) It draws a circle shape.
 
   --- feedback ---
 
-  Not quite. The circle() function would be used to draw a circle.
+  Not quite. The `circle()` function would be used to draw a circle.
 
   --- /feedback ---
 
